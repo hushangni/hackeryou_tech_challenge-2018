@@ -1,0 +1,607 @@
+
+/**{
+	border: 1px solid red;
+}*/
+
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+	font-size: 0.8em;
+}
+
+h4{
+	font-size: 0.6em;
+}
+
+/**** TOP BLACK NAV BAR ****/
+.container{
+	width: 80%;
+	margin: 0px auto;
+}
+
+.black-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.black-nav-items{
+	float: left;
+}
+
+.black-nav-items a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+	font-size: 0.6em;
+}
+
+.black-nav-items a:hover{
+	background-color: #555;
+}
+
+.top-black-nav-search{
+	float: right;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+.search-icon{
+	background-color: #444;
+	color: white;
+	z-index: 1;
+	padding: 10px;
+	padding-top: 8px;
+	margin: 0;
+	position: absolute;
+	right: 0;
+}
+
+.container-search{
+	width: 300px;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+}
+
+.container-search input.search{
+	width: 150px;
+	height: 32px;
+	background: #2b303b;
+	position: absolute;
+	padding-left: 10px;
+	border: none;
+	font-size: 8pt;
+	font-family: 'Poppins', sans-serif;
+	float: left;
+	color: #63717f;
+	placeholder-color: ;
+}
+
+.search-icon-button{
+	background-color: #444;
+	color: white;
+	border: none;
+	padding: 0;
+}
+
+
+/**** HEADER ****/
+.header-container{
+	position: relative;
+	width: 400px;
+	height: 150px;
+	margin: 0 auto;
+}
+.circle{
+	background-color: rgb(244,223, 208);
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	top: 35%;
+	position: absolute;
+	margin: 0 auto;
+	left: 40%;
+	right: 50%;
+}
+
+.header-title{
+	position: absolute;
+	top: 30%;
+	left: 23%;
+	right: 50%;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+.header-nav{
+	list-style: none;
+	margin: 0;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	overflow: hidden;
+}
+
+.header-nav-items{
+	display: inline;
+}
+
+.header-nav-items a{
+	text-decoration: none;
+	font-size: 0.7em;
+	color: #444;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.header-nav-items a:hover{
+	color: #ccc;
+}
+
+.grey-line{
+	border: 0;
+	height: 1px;
+	background: #EEE;
+}
+
+
+/**** BANNER ****/
+.banner-wrapper{
+	margin-top: 30px;
+	margin-bottom: 15px;
+	background: url(assets/flaunter-com-178022.jpg) no-repeat center;
+	background-size: 100%;
+	min-width: 721px;
+	width: 100%;
+	height: 375px;
+}
+
+.banner-textbox{
+	background-color: rgb(244,223, 208);
+	height: 29%;
+	width: 35%;
+	margin: 0 auto;
+	position: relative;
+	top: 35%;
+	text-align: center;
+	padding-top: 1.9%;
+}
+
+.grey-h4{
+	color: #444;
+}
+
+
+/**** CONTENT ****/
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1.5em;
+	grid-auto-rows: 300px;
+	grid-auto-columns: 300px;
+}
+
+.top-content-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1.5em;
+	grid-auto-rows: 300px;
+	grid-auto-columns: 300px;
+}
+
+.travel-wrapper{
+	background: url(assets/small_image_0013_annie-spratt-217517.jpg) no-repeat center;
+	background-size:100%;
+	width: 225px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lifestyle-wrapper{
+	background: url(assets/small_image_0012_anthony-tran-378336.jpg) no-repeat center;
+	background-size: 100%;
+	width: 225px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-headers{
+	text-decoration: none;
+	color: black;
+}
+
+.top-headers:hover{
+	color: #888;
+}
+
+.food-wrapper{
+	 background: url(assets/small_image_0011_brooke-lark-331981.jpg) no-repeat center;
+	 background-size: 100%;
+	 width: 225px;
+	 text-align: center;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+
+.travel-textbox{
+	background-color: rgb(244,223, 208);
+	position: relative;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	height: 10%;
+	padding-top: 4%;
+	top: 82%;
+	font-size: 0.8em;
+}
+
+.lifestyle-textbox{
+	background-color: rgb(244,223, 208);
+	position: relative;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	height: 10%;
+	padding-top: 4%;
+	top: 82%;
+	font-size: 0.8em;
+}
+
+.food-textbox{
+	background-color: rgb(244,223, 208);
+	position: relative;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	height: 10%;
+	padding-top: 4%;
+	top: 82%;
+	font-size: 0.8em;
+}
+
+.content-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 1.5em;
+	grid-auto-rows: 1fr 1fr 1fr;
+}
+
+.peach-wrapper{
+	grid-column: 3;
+	grid-row: 1/3;
+}
+
+.beyond-box{
+	background: url(assets/small_image_0009_joanna-kosinska-254405.jpg) no-repeat center;
+	background-size: 100%;
+	width: 225px;
+	height: 160px;
+	overflow: hidden;
+	text-align: center;
+	padding: 35px;
+	line-height: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.beyond-text{
+	font-size: 0.9;
+}
+
+.read-more{
+	color: #444;
+	border: 1.5px solid black;
+	width: 60%;
+	margin: 0 auto;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+.read-more:hover{
+	color: #fff;
+	background-color: #000;
+}
+
+.sm-read-more{
+	text-decoration: none;
+	color: #333;
+}
+
+.sm-read-more:hover{
+	color: #aaa;
+}
+
+.blog-img-box{
+	/*width: 225px;*/
+	height: 160px;
+	overflow: hidden;
+	/*position: relative;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-img{
+	width: 100%;
+}
+
+.blog-post{
+	text-align: center;
+	width: 225px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blog-text-box{
+	text-align: left;
+}
+
+
+p{
+	font-size: 0.7em;
+	color: #777;
+	line-height: 1.5em;
+}
+
+.peach-self{
+	background-color: rgb(244,223, 208);
+	text-align: center;
+	width: 225px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.self-desc{
+	font-size: 0.6em;
+	padding: 6%;
+	line-height: 1.5em;
+	color: #777;
+}
+
+.self-pic{
+	width: 75%;
+	border-radius: 50%;
+	margin-top: 13%;
+	overflow: hidden;
+}
+
+.self-icons{
+	padding-bottom: 10%;
+}
+
+.self-icons > a{
+	color: black;
+}
+
+.self-icons > a:hover{
+	color: #aaa;
+}
+
+.number-text{
+	font-size: 0.7em;
+}
+
+.email-subscribe-wrapper{
+	width: 225px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.email{
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.7em;
+	text-align: center;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	background-color: #eee;
+	color: #ddd;
+	border: 1px solid #eee;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.subscribe{
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.7em;
+	border: 1px solid black;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-radius: 0;
+	text-align: center;
+	color: white;
+	background-color: black;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.peach-top-stories{
+	background-color: rgb(244,223, 208);
+	margin-left: auto;
+	margin-right: auto;
+	width: 225px;
+	padding: 20px 8px 13px 8px;
+}
+
+.top-stories{
+	text-align: center;
+}
+
+.number-grid{
+	border: none;
+}
+
+td {
+	padding: 8px;
+    text-align: left;
+}
+
+.number-text{
+	font-size: 0.6em;
+	color: #555;
+}
+
+.number{
+	font-size: 1.4em;
+}
+
+
+/***** PAGES ****/
+.grey-circle{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #eee;
+	text-align: center;
+	padding-bottom: 5px;
+	line-height: 25px;
+	font-size: 0.6em;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+.grey-circle:first-child{
+	background-color: black;
+	color: white;
+}
+
+.peach-bottom-bar{
+	background-color: rgb(244,223, 208);
+	margin: 0 auto;
+	height: 55px;
+	font-size: 0.8em;
+	text-align: center;
+	line-height: 55px;
+}
+
+.join-insta{
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+}
+
+.join-insta:hover{
+	color: #777;
+}
+
+
+/**** IMAGE GALLERY BOTTOM ****/
+.gallery-img{
+	display: inline-block;
+	width: 178px;
+	height: 178px;
+	overflow: hidden;
+	border: none;
+	padding: 0;
+	margin-left: -5px;
+	margin-bottom: -5px;
+}
+
+.bottom-gallery{
+	text-align: center;
+}
+
+.gallery-img:nth-child(1){
+	background: url(assets/small_image_0002_stil-326684.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.gallery-img:nth-child(2){
+	background: url(assets/small_image_0003_sabina-ciesielska-325340.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.gallery-img:nth-child(3){
+	background: url(assets/small_image_0004_roman-kraft-312479.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.gallery-img:nth-child(4){
+	background: url(assets/small_image_0005_pineapple-supply-co-253178.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.gallery-img:nth-child(5){
+	background: url(assets/small_image_0006_nathan-boadle-241643.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+
+/**** BOTTOM NAV ****/
+.bottom-black-nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.center-menu{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.bottom-nav-items{
+	display: inline-block;
+}
+
+.bottom-nav-items a{
+	color: white;
+	line-height: 70px;
+	text-align: center;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-decoration: none;
+	font-size: 0.7em;
+	margin-top: 0;
+}
+
+.bottom-nav-items a:hover{
+	color: rgb(244,223, 208);
+}
+
+.bottom-black-nav > p{
+	float: left;
+	font-size: 0.7em;
+	display: inline-block;
+	color: #fff;
+	font-size: 0.7em;
+	padding-left: 20px;
+	padding-top: 17px;
+}
+
+.bottom-self-icons{
+	float: right;
+	color: white;
+	padding-right: 20px;
+	padding-top: -5px;
+}
+
+.bottom-self-icons > .fa{
+	padding-left: 10px;
+	font-size: 12px;
+	padding-top: -12px;
+}
+
+

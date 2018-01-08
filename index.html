@@ -1,0 +1,269 @@
+<!-- NOTES
+
+	1. I tried to accomplish the layout with CSS Grids as I've been wanting to properly learn it for a while, but I was a little unsure how to go about making the grid responsive to my layout.
+
+	2. I feel like I made the search bar area at the top kind of awkwardly. I'm a little lost as how to make it more elegantly.
+
+	3. If this is opened in safari the Travel, Lifestyle, and Food boxes go way up from where they're suppose to be for some reason. Super wacky looking!
+
+ -->
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Charm Blog</title>
+		<link rel="stylesheet" href="setup.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+		<script src="https://use.fontawesome.com/4d8f018c2d.js"></script>
+	</head>
+
+	<body>
+
+		<header>
+			<div class="header-wrapper">
+				  <ul class="black-nav">
+				  	<div class="container">
+					    <li class="black-nav-items"><a href="#">Home</a></li>
+					    <li class="black-nav-items"><a href="#">Pages</a></li>
+					    <li class="black-nav-items"><a href="#">Shortcodes</a></li>
+					    <li class="black-nav-items"><a href="#">Blog</a></li>
+					    <li class="top-black-nav-search">
+					    	<div class="container-search">
+						    	<input type="text" name="searchbox" class="search" placeholder="Type to Search">
+						    	<span class="search-icon">
+						    		<button class="search-icon-button">
+						    			<i class="fa fa-search" aria-hidden="true"></i>
+						    		</button>
+						    	</span>
+					    	</div>
+					    </li>
+					</div>
+				  </ul>
+				
+				<div class="container">
+					<div class="header-container">
+						<div class="circle"> 
+						</div>
+						<div class="header-title">
+								<h1>Charm/Blog</h1>
+						</div>
+					</div>
+
+
+					<hr class="grey-line">
+					<div class="table">
+						<ul class="header-nav">
+						  <li class="header-nav-items"><a href="#">Home</a></li>
+						  <li class="header-nav-items"><a href="#">Pages</a></li>
+						  <li class="header-nav-items"><a href="#">Portfolio</a></li>
+						  <li class="header-nav-items"><a href="#">Blog</a></li>
+						  <li class="header-nav-items"><a href="#">Shop</a></li>
+						  <li class="header-nav-items"><a href="#">Elements</a></li>
+						</ul>
+					</div>
+					<hr class="grey-line">
+					
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="banner-wrapper">
+					<div class="banner-textbox">
+						<h2>All the world waiting for you</h2>
+						<h4 class="grey-h4">Travel - Nov 17, 2020</h4>
+						<h4> <a class="sm-read-more" href="#">Read More</a> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+					</div>
+				</div>
+
+				<div class="top-content-wrapper">
+					<div class="travel-wrapper">
+						<div class="travel-textbox"><a class="top-headers" href="#">Travel</a></div>
+					</div>
+					<div class="lifestyle-wrapper">
+						<div class="lifestyle-textbox"><a class="top-headers" href="#">Lifestyle</a></div>
+					</div>
+					<div class="food-wrapper">
+						<div class="food-textbox"><a class="top-headers" href="#">Food</a></div>
+					</div>
+				</div> <!-- top-content-wrapper -->
+
+				<div class="content-wrapper">
+					<div class="blog-post">
+						<div class="blog-img-box">
+							<img class="blog-img" src="assets/
+							small_image_0006_nathan-boadle-241643.jpg">
+						</div>
+						<div class="blog-text-box">
+							<h2>All the world's waiting for you</h2>
+							<h4 class="grey-h4">Travel - Nov 17, 2020</h4>
+							<p>Lorem ipsum dolor sit amet, nam saepe tibique no. Efficiantur consequuntur et nec. Cum ei omittam repudiare evertitur.</p>
+							<h4><a class="sm-read-more" href="#">Read More</a> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+						</div>
+					</div>
+
+					<div class="blog-post">
+						<div class="blog-img-box">
+							<img class="blog-img" src="assets/
+							small_image_0000_alvan-nee-333367.jpg">
+						</div>
+
+						<div class="blog-text-box">
+							<h2>All the world's waiting for you</h2>
+							<h4 class="grey-h4">Travel - Nov 17, 2020</h4>
+							<p>Lorem ipsum dolor sit amet, nam saepe tibique no. Efficiantur consequuntur et nec. Cum ei omittam repudiare evertitur.</p>
+							<h4><a class="sm-read-more" href="#">Read More</a> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+						</div>
+					</div>
+
+					<div class="blog-post">
+						<div class="blog-img-box">
+							<img class="blog-img" src="assets/
+							small_image_0007_magda-fou-421485.jpg">
+						</div>
+						<div class="blog-text-box">
+							<h2>All the world's waiting for you</h2>
+							<h4 class="grey-h4">Travel - Nov 17, 2020</h4>
+							<p>Lorem ipsum dolor sit amet, nam saepe tibique no. Efficiantur consequuntur et nec. Cum ei omittam repudiare evertitur.</p>
+							<h4><a class="sm-read-more" href="#">Read More</a> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+						</div>
+					</div>
+
+					<div class="blog-post">
+						<div class="blog-img-box">
+							<img class="blog-img" src="assets/
+							small_image_0005_pineapple-supply-co-253178.jpg">
+						</div>
+						<div class="blog-text-box">
+							<h2>All the world's waiting for you</h2>
+							<h4 class="grey-h4">Travel - Nov 17, 2020</h4>
+							<p>Lorem ipsum dolor sit amet, nam saepe tibique no. Efficiantur consequuntur et nec. Cum ei omittam repudiare evertitur.</p>
+							<h4><a class="sm-read-more" href="#">Read More</a> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+						</div>
+					</div>
+
+					<div class="blog-post">
+						<div class="blog-img-box">
+							<img class="blog-img" src="assets/
+							small_image_0001_stil-326695.jpg">
+						</div>
+						<div class="blog-text-box">
+							<h2>All the world's waiting for you</h2>
+							<h4 class="grey-h4">Travel - Nov 17, 2020</h4>
+							<p>Lorem ipsum dolor sit amet, nam saepe tibique no. Efficiantur consequuntur et nec. Cum ei omittam repudiare evertitur.</p>
+							<h4><a class="sm-read-more" href="#">Read More</a>  <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+						</div>
+					</div>
+
+					<div class="blog-post">
+						<div class="blog-img-box">
+							<img class="blog-img" src="assets/
+							small_image_0008_maarten-deckers-227224.jpg">
+						</div>
+						<div class="blog-text-box">
+							<h2>All the world's waiting for you</h2>
+							<h4 class="grey-h4">Travel - Nov 17, 2020</h4>
+							<p>Lorem ipsum dolor sit amet, nam saepe tibique no. Efficiantur consequuntur et nec. Cum ei omittam repudiare evertitur.</p>
+							<h4><a class="sm-read-more" href="#">Read More</a> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></h4>
+						</div>
+					</div>
+
+					<div class="peach-wrapper">
+						<div class="peach-self">
+							<img class="self-pic" src="assets/small_image_0010_ilya-yakover-251720.jpg">
+							<p class="self-desc">Lorem ipsum dolor sit amet, nam sae pe tibique no. Efficiantur consequuntur et nec. Cum ei omittam repudiare evertitur.</p>
+							<div class="self-icons">
+								<a href="https://www.facebook.com/shangni.hu"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/shangnihu/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://www.linkedin.com/in/shangni-hu/"><i class="fa fa-behance" aria-hidden="true"></i></a>
+								<a href="https://twitter.com/shangnihu"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</div>
+						</div>
+
+						<div class="email-subscribe-wrapper">
+							<input class="email" type="text" placeholder="Your email address" name="mail">
+							 <input class="subscribe" type="submit" value="Subscribe">
+						</div>
+
+						<div class="beyond-box">
+							<h2 class="beyond-text">Beyond it is another Dimension</h2>
+
+							<a href="#" class="read-more">Read More</a>
+						</div>
+					</div><!--  peach-wrapper -->
+
+					<div class="peach-top-stories">
+						<h2 class="top-stories">Top Stories</h2>
+						<table class="number-grid">
+						  <tr>
+						    <td class="number">1</td>
+						    <td class="number-text">Aenean mattis tortor ac sapien congue molestie.</td> 
+						  </tr>
+						  <tr>
+						    <td class="number">2</td>
+						    <td class="number-text">Vestibulum ante ipsum primis in orci faucibus luctus.</td> 
+						  </tr>
+						  <tr>
+						    <td class="number">3</td>
+						    <td class="number-text">Sapien etiam eu odio inposuere vitae bibendum vitae lorem.</td> 
+						  </tr>
+						  <tr>
+						    <td class="number">4</td>
+						    <td class="number-text">Etiam eu odio in sapien posuere vitae bibendum vitae lorem.</td> 
+						  </tr>
+						  <tr>
+						    <td class="number">5</td>
+						    <td class="number-text">Morbi eget leo a tellus gravida sagittis nec nec felis.</td> 
+						  </tr>
+						</table>
+					</div>
+
+				</div><!-- content-wrapper -->
+				<div class="pages">
+					<div class="grey-circle">1</div>
+					<div class="grey-circle">2</div>
+					<div class="grey-circle">3</div>
+					<div class="grey-circle">4</div>
+					<div class="grey-circle">></div>
+				</div>
+
+			</div>
+		</main>
+		<footer>
+			<div class="peach-bottom-bar">
+				<a href="https://www.instagram.com/shangnihu/" class="join-insta">Join our Instagram</a>
+			</div>
+
+			<div class="bottom-gallery">
+				<div class="gallery-img"></div>
+				<div class="gallery-img"></div>
+				<div class="gallery-img"></div>
+				<div class="gallery-img"></div>
+				<div class="gallery-img"></div>
+			</div>
+
+			<ul class="bottom-black-nav">
+				<p>&copy; 2018 Energetic Themes</p>
+
+				<div class="center-menu">
+					<li class="bottom-nav-items"><a href="#">Portfolio</a></li>
+					<li class="bottom-nav-items"><a href="#">Blog</a></li>
+					<li class="bottom-nav-items"><a href="#">Shop</a></li>
+					<li class="bottom-nav-items"><a href="#">Elements</a></li>
+				</div>
+
+				<div class="bottom-self-icons">
+					<i class="fa fa-facebook" aria-hidden="true"></i>
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+					<i class="fa fa-behance" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+				</div>
+			</ul>
+		</footer>
+
+	</body>
+</html>
